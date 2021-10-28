@@ -1,0 +1,5 @@
+table, th, td{ /* th, td 전부 색 넣어줘야 눈에 보인다!!*/
+    border: 1px solid #ccc;
+    text-align: center; /* 글자정렬!! */
+}
+th, td{padding: 10px;}

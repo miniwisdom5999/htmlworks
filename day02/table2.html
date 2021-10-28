@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 태그와 스타일 속성</title>
+
+    <style>
+        table{
+            width: 300px;
+        }
+        table, th, td{
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        /* 뭔가 잘못됐다....이제됐음!! 오타안나게조심 */
+        /* 텍스트 라인 센터 했음!! */
+        th, td{
+            padding: 10px;
+        }
+        /* 스타일 공통으로 주고싶으면 콤마 활용!! */
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>프로축구 경기 일정</caption>
+        <!-- table안에 제목넣기? -->
+        <tr>
+            <td>경기장</td>
+            <td>경기일정</td>
+        </tr>
+        <tr>
+            <td>인천</td>
+            <td>인천 vs 울산</td>
+        </tr>
+        <tr>
+            <td>부산</td>
+            <td>대전 vs 부산</td>
+        </tr>
+        <tr>
+            <td>서울</td>
+            <td>서울 vs 전북</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
