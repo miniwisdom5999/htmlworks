@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경 음악 넣기</title>
+    <style>
+        .bg{
+            width: 400px;
+            /* 600px하면 다 보이는데 400px로 하면 이미지가 잘려나온다!!
+            잘리지 않고 이미지 축소 시키려면 background-size: cover; 이용!! */
+            height: 400px;
+            background-image: url('./images/bg4.jpg');
+            background-size: contain; /* 이미지가 축소되어 비율대로 보임 */
+            /* 이미지는 기본적으로 반복된다.
+            반복을 안하고싶다면 background-repeat: no-repeat; 이용!! */
+            background-repeat: no-repeat;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <div>
+        <audio src="medias/spring.mp3" controls></audio>
+        <!-- autoplay로 쓰면 안나옴..!? 강사님피셜 자동재생 용량 커져서 사이트에서 막아둔듯 -->
+    </div>
+    
+</body>
+</html>
