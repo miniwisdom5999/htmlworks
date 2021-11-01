@@ -1,0 +1,40 @@
+body{
+    background-color: #02233b;
+}
+#container{
+    width: 700px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    background: #fff url("../images/mic.png") no-repeat right bottom;
+    /* 배경에 이미지 넣었음!! */
+    background-size: 280px;
+    /* 배경에 넣은 이미지사이즈 변경했음!! */
+    padding: 20px;
+}
+h1{
+    background-color: #004344;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    /* 가운데 정렬하고 이텔릭체 줬음!! */
+    margin-bottom: 50px;
+}
+article h3{
+    color: rgb(212,3,3);
+}
+article ul{
+    list-style: none;
+}
+
+/* article li{
+    margin: 15px;
+} */
+
+article ul li{
+    line-height: 2em;
+}

@@ -1,0 +1,36 @@
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    border: none;
+}
+div{
+    width: 700px;
+    margin: 0 auto;
+    border: none;
+         
+}
+div{
+    width: 700px;
+    margin: 0 auto;
+    border: 1px dotted #333;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+}
+#description{
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#description{line-height: 2em;}
+#package{
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+table, th, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+th, td{padding: 10px 20px;}
+caption{margin-bottom: 10px;}
+      /* border(테두리)를 만들고나면 padding을 주자!!! */
