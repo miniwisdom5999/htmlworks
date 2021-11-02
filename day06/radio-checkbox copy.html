@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>readio, checkbox 버튼 태그</title>
+    <style>
+        fieldset{
+            margin: 20px;
+        }
+        input [type="submit"]{ /* input태그에 속성 넣을 때 [] */
+            margin-left:20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>신청과목</legend>
+            <p>이 달에 신청할 과목을 선택하세요(1과목만 가능)</p>
+            <label>
+                <input type="radio" name="subject" value="speaking">회화
+            </label>
+            <label>
+                <input type="radio" name="subject" value="grammer">문법
+            </label>
+            <label>
+                <input type="radio" name="subject" value="writing">작문
+                
+            </label>
+            <!-- *주의할 점* name이 같아야한다. 그렇지 않으면 복수체크걸림.(복수 체크를 하고싶다면 checkbox를 이용하자!!)-->
+            <!-- 글자를 눌러서 체크 가능하게 하고싶다면 id="~~~"를 지우고 value="~~~" 이런식으로 넣어주면 가능!! -->
+        </fieldset>
+        <fieldset>
+            <legend>메일링</legend>
+            <P>메일로 받고 싶은 주제를 선택해 주세요(복수 선택 가능)</P>
+            <label>
+                <input type="checkbox" name="mailing" value="new">해외 단신
+
+            </label>
+            <label>
+                <input type="checkbox" name="mailing2" value="new">5분 회화
+
+            </label>
+            <label>
+                <input type="checkbox" name="mailing3" value="new">모닝 팝스
+
+            </label>
+        </fieldset>
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>

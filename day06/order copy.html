@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문서 만들기</title>
+    <link rel="stylesheet" href="./css/order.css">
+</head>
+<body>
+    <div id="container">
+        <h1>레드향 주문하기</h1>
+        <form action="#" methed="post">
+            <!-- action은 없어도 괜찮지만 post는 있어야해!!! -->
+            <fieldset>
+                <legend>상품 선택</legend>
+                <p>주문할 상품을 선택해 주세요</p>
+                <ul>
+                    <li>
+                        <label><input type="checkbox" value="g_3">선물용 3kg</label>
+                        <input type="number" min="0" max="5" value="1">개 (최대 5개)
+                        <!-- 숫자만 쓰게 설정하고, 최소 최대 설정해줬음!! value에 1을 넣어서 처음부터 1이 보이게 했음!!-->
+                    </li>
+                    <li>
+                        <label><input type="checkbox" value="g_5">선물용 5kg</label>
+                        <input type="number" min="0" max="3" value="1">개 (최대 3개)
+                    </li>
+                </ul>
+                <p>포장 선택</p>
+                <ul>
+                    <li>
+                        <label><input type="radio" name="gift" value="yes">선물 포장</label>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label><input type="radio" name="gift" value="no">선물 포장 안함</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>배송 정보</legend>
+                <ul>
+                    <li>
+                        <label for="user_name">이름</label>
+                        <input type="text" id="user_name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="address">배송 주소</label>
+                        <input type="text" id="addres" name="address">
+                    </li>
+                    <li>
+                        <label for="phone">연락처</label>
+                        <input type="text" id="phone" name="phone">
+                    </li>
+                </ul>
+            </fieldset>
+            <div class="button">
+                <input type="submit" value="주문하기">
+                <input type="reset" value="취소하기">
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>

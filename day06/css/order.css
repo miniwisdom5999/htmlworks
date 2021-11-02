@@ -1,0 +1,14 @@
+#container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1{ text-align: center;}
+fieldset{margin: 15px;}
+legend{font-weight: bold;}
+ul{
+    list-style: none;
+}
+ul li{
+    margin: 15px;
+}

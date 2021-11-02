@@ -1,0 +1,13 @@
+비주얼 스튜디오에서 한 자료를 github 올리기
+
+cmd에서
+
+cd c:/web_dev/htmlworks
+
+git status
+
+git add *
+
+git commit =m "day05 추가"
+
+git push

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>로그인</h2>
+    <form action="longinProcess.jsp" method="post">
+        <!-- method="get"하면 주소창에 아이디 비밀번호가 보이므로 보안상 위험!!
+        그래서 method="post"로 우편물 보내듯-->
+        <p>
+            <label>아이디</label>
+            <input type="text" name="id">
+            <!-- name 속성이 있어야 아이디 쳤을 때 처리할 수 있음!! -->
+        </p>
+        <p>
+            <label>비밀번호</label>
+            <input type="password" name="pwd">
+        </p>
+        <input type="submit" value="로그인">
+        <!-- name 속성은 서버측 페이지에서 처리하는 속성이다. -->
+        <!-- 보안이 필요한 내용은 method 방식을 post로 한다. 반드시 필수 명시해야함 -->
+    </form>
+</body>
+</html>

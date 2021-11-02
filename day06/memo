@@ -1,0 +1,23 @@
+form(폼)만들기
+파이썬 개발자들이 많이씀 중요!!
+
+(클라이언트에서) 로그인 아이디 눌러주면 폼 데이터(요청)
+웹 서버의 데이터베이스(DB)에서 응답 웹 페이지(다른 페이지로 이동)
+
+<form 속성="속성 값">여러 폼 요소</form>
+
+input태그와 같이 쓰기
+
+
+https://blog.naver.com/yejine98/222476429565 프로그래밍 국비 교육하는 사람 블로그
+
+
+https://blog.naver.com/anedthh/222180011976
+radio는 단일 선택
+checkbox는 복수 선택
+블로그에 설명있음
+
+
+<textarea>태그 여러줄 입력하는 텍스트 ..입력 ??
+cols, rows 등 활용
+textarea태그 placecholder 이용해서 힌트글자도 넣을 수 있음

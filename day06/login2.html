@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{list-style: none;}
+        ul li{margin: 20px;}
+        label{
+            width: 80px;
+            float: left;
+            /* 입력상자 정렬 - labal 크기 설정, float: left; */
+        }
+        input[type="text"],[type="password"]{
+            width: 120px;
+            height: 25px;
+        }
+        /* 글 넣는 박스 부분 꾸몄음!! */
+    </style>
+</head>
+<body>
+    <h2>로그인</h2>
+    <form action="{% url 'commin:login' %}" method="post">
+        
+        <ul>
+            <li>
+                <label for="uid">아이디</label>
+                <input type="text" name="uid" id="uid">
+            </li>
+            
+        </ul>
+        <ul>
+            <li>
+                <label for="pwd">비밀번호</label>
+                <input type="password" name="pwd">
+            </li>
+            <li>
+                <input type="submit" value="로그인">
+            </li>
+
+        </ul>
+        <!-- style 주기 편하게 ul li를 많이 씀!! -->
+        
+        
+    </form>
+</body>
+</html>

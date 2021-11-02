@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>readio, checkbox 버튼 태그</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>신청과목</legend>
+            <p>이 달에 신청할 과목을 선택하세요(1과목만 가능)</p>
+            <label>
+                <input type="radio" name="subject" id="subject">회화
+            </label>
+            <label>
+                <input type="radio" name="subject" id="subject">문법
+            </label>
+            <label>
+                <input type="radio" name="subject" id="subject">작문
+                
+            </label>
+            <!-- *주의할 점* name이 같으면 하나만 체크, 다르면 동시 체크 된다!!-->
+            <!-- 글자를 눌러서 체크 가능하게 하고싶다면 id="~~~"를 지우고 value="~~~" 이런식으로 넣어주면 가능!! -->
+        </fieldset>
+    </form>
+</body>
+</html>
