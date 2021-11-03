@@ -1,0 +1,17 @@
+.{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    /* 패딩을 포함한 크기 */
+}
+/* .은 전체선택자!! */
+
+#wrap{
+    width: 250px;
+    height: 340px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background: url(../images/notice.jpg);
+}
+ul{list-style: none;}
+ul li{margin: 20px;}
+/* 창을 만드는건 html에서 이게 끝!! 이제 자바스크립크 있어야한대!! */

@@ -1,0 +1,49 @@
+전날 흝어보기
+*display
+inline
+block    (같이쓰는거)none
+inline-block
+
+*flont
+clear
+
+
+메모07
+
+*position
+absolute
+relative 브라우저 창이 아닌 부모요소를 기준으로 설정할때 사용 (부모에 넣어줘야함)
+fixed 부모요소가 아닌 브라우저 창이 기준(브라우저 창화면을 스크롤 하더라도 계속 같은 위치에 고정)
+
+*위에 나온 포지션과 같이 쓰는거!!
+top right bottom left
+
+
+전날 흝어보기
+form안에 
+action은 처리페이지
+글 넣고싶으면 input type을 text로 해주고
+버튼 넣고싶으면 submit서브밋?
+
+메모07
+
+day06의 order파일에서 활용 두가지 했음
+autofocus 처음부터 글 치게 선택되어있게...??
+~~~하나 더있는데 뭔지 모르겠당
+required 필수 필드(안쓰고는 못넘어가게)
+readonly 읽기 전용
+
+
+
+꼭 서버에 가지 않아도 괜찮은 것들은(폼 전송이 아닌 것은)
+input타입button(value 넣어줘야함) 해도 괜찮고 button타입button해도 괜찮음
+submit이 없음 상관없는거~~
+button은 자바스크립트 있어야 쓸만함
+
+
+
+window.open()
+자바스크립트 window의 .open()
+()안에 링크 넣어서 연결시켜주기
+
+scr

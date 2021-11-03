@@ -1,0 +1,27 @@
+#container{
+    width: 600px;
+    height: 0 auto;
+}
+ul{list-style: none;}
+ul li{
+    margin: 15px;
+}
+ul li label{
+    width: 100px;
+    float: left;
+}
+.botton{
+    margin-top: 10px; text-align: center;
+}
+.botton input /*[type="submit"], [type="reset"] */ {
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    font-size: 1em;
+
+}
+.botton input:hover{
+    background-color: rgb(rgb(14, 14, 165);
+    color: #fff;
+    border-color: #fff;
+}
