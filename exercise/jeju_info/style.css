@@ -1,0 +1,22 @@
+/* style.css */
+*{margin: 0 auto;}
+#container{width: 1100px; margin: 0 auto;}
+
+/* header 영역 */
+header{height: 100px; background-color: beige;}
+header #logo{width: 250px; float: left; padding: 25px;}
+header nav{width: 700px; float: right;}
+header nav #topMemu{list-style: none; text-align: right; 
+    margin-right: 100px; padding: 20px;}
+header nav #topMemu li{display: inline-block; margin: 20px;}
+header nav #topMemu li a{text-decoration: none; color: #000;}
+
+
+/* 본문 영역 */
+.contents{width: 1000px;}
+main section{height: 300px;}
+/* .contents의 width를 main section이 그대로 상속받음!! */
+
+/* footer 영역 */
+footer{height: 100px; border-top: 2px solid #222;}
+

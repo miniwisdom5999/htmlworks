@@ -1,0 +1,23 @@
+#container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1{ text-align: center;}
+fieldset{margin: 15px;}
+legend{font-weight: bold;}
+ul{
+    list-style: none;
+}
+ul li{
+    margin: 15px;
+}
+/* 배송 정보 스타일 */
+#shipping ul li label{
+    width: 100px;
+    float: left;
+}
+/* 위의 방법으로 상자 줄 맞췄음!! 어떻게 했는지는 잘 모르겠다...... */
+.button{
+    margin-left: 20px;
+}

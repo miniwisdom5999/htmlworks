@@ -1,0 +1,13 @@
+*{margin: 0 auto;}
+#container{
+    width: 1000px; margin: 0 auto;
+}
+nav{height: 100px; background-color: rgb(101, 217, 233);}
+nav ul{list-style: none; text-align: right; margin-right: 100px; padding: 20px;}
+/* text-align: right;으로 오른쪽에 붙게했고
+너무 붙어보여서 margin-right로 조금 떼어내줬다!!  */
+nav ul li{display: inline-block; margin: 20px;}
+nav ul li a{text-decoration: none; color: #000;}
+
+/* section 스타일 */
+section{margin: 20px;}

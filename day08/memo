@@ -1,0 +1,56 @@
+1교시
+
+*overflow속성
+visible
+hidden
+auto
+
+*position 속성
+z-index 속성
+요소쌓는순서 정하기
+z-index 값이 크면 작은요소보다 위에 쌓인다.
+z-index 값을 명시하지않으면 1부터 시작 1씩 커진다.
+
+*border-radius 속성
+
+*display에서 block(수직만들어줌)과 none(사라짐)을 많이 쓴다
+
+------------------------------------------------------------
+2교시
+
+*html 5 문서
+<header> 헤더
+<section> 콘텐츠 (얘가 좀더 큰느낌)      섹션제목을 나타내는 hn 같이 사용
+<article> 콘텐츠                         섹션제목을 나타내는 hn 같이 사용
+<aside> 사이드바
+<footer> 헤더
+
+
+
+*3단레이아웃(layout)만들기
+
+
+
+*display:inline-block
+
+
+*폰트
+c드라이브 window에서 파일 가져오거나
+
+구글 웹폰트 사용하기
+font.goole.com   ex)nanum
+
+
+MDN사이트  w3schools랑 비슷함
+https://developer.mozilla.org/ko/
+
+
+
+
+웹 호스팅 서버 준비하기
+
+닷홈
+filezilla
+
+
+클라우드(아마존,구글, ms)
