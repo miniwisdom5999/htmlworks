@@ -1,0 +1,14 @@
+.coonteainer{width: 960px; margin: 0 auto;}
+.content{
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    /* 패딩에 20을 넣는 순간 좌우(width)가 20씩 늘어 440px이 된다!! */
+    
+}
+.content :first-child{color: blue;} /* 첫번쨰 자식요소 */
+.content :nth-child(3){background-color: #fff000;} /* 자식요소 중 3번째 */
+.content p:nth-of-type(3){background-color: #00ff00;} /* p태그 중 3번째 위치 */
+.content :last-child{color: rgb(248, 68, 98);} /* 마지막 자식 요소 */
